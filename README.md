@@ -1,19 +1,19 @@
-# AuthReactMongo
+# Gelato, management app
 
-AuthReactMongo is an open source MERN stack template with built in authentication
+With Gelato, every icecream maker can manage his cakes production with ease.
 
-  - Signup
-  - Login
-  - Logout
-  - Built in Login/Signup form
-  - Json Web Token
-  - Secure Routes by user clearance
-  - Secure Routes for logged in users
-  - Redux Thunk Integration
+You can set a cake with:
+- flavours
+- number of persons
+- a shape
+- miscellanous stuff
+- a client (name, address, phone)
+- a delivery date
+- a state (Not started, WIP, done, gone)
+
+You can also manage your clients and send them emails.
 
 ### Installation
-
-Quick-Start Video Guide: https://www.youtube.com/watch?v=7KQTiQAwYSU
 
 Clone or download the repository
 
@@ -24,16 +24,6 @@ In the .env file of the main folder:
   - Copy your connection string
   - Replace the text after "DATABASE:" with your Mongodb database connection string.
   - Change the JWT_SECRET *this is used to encode the JSON Web Token
-
-AuthReactMongo has two nodemodules folders to populate
-In the project directory:
-```sh
-$ yarn
-$ cd client yarn
-$ cd ..
-$ yarn
-$ yarn run dev
-```
 
 ### .env
 
@@ -79,15 +69,6 @@ AuthReactMongo uses the following tech stack:
   - Nodejs
   - Mongoose
   - Redux
-
-### Development
-
-Want to contribute? Great!
-
-### Todos
-
- - Security settings
- - New features
 
 License
 ----
