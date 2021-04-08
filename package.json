@@ -1,6 +1,6 @@
 {
-  "name": "Gelato",
-  "homepage": "https://github.com/asantono/AuthReactMongo",
+  "name": "gelato",
+  "homepage": "",
   "version": "0.1.0",
   "dependencies": {
     "bcrypt": "^5.0.0",
